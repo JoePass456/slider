@@ -10,10 +10,10 @@ function Controls(props) {
                     <button onClick={props.addPic}>Import</button>
                 </div>
                 <div className="col control text-center">
-                    <button>Shuffle</button>
+                    <button onClick={props.shuffleTiles}>Shuffle</button>
                 </div>
                 <div className="col control text-center">
-                    <button>Reset</button>
+                    <button onClick={props.resetTiles}>Reset</button>
                 </div>
             </div>
             <div className="row">

@@ -1,8 +1,10 @@
 .tile {
-  width: 100px;
-  height: 100px;
-  border: solid 2px black;
-  background-color: white;
+  /* width: 100px;
+  height: 150px; */
+  border: solid 1px black;
+  background-color: black;
+  padding: 0px;
+  margin: 0px
 }
 .control {
   /* width: 100px;
@@ -15,4 +17,11 @@
 }
 .highlight {
   border: solid 4x red;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.blank {
+  background-color: black;
 }
